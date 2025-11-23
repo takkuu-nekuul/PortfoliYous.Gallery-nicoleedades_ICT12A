@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortfoliYous Gallery</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        PortfoliYous Gallery
+        <div class="sign-in" >
+        </div>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#add">Add Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contacts">Contacts</a>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to PortfoliYous Gallery</h2>
+            <p>
+            PortfoliYous Gallery is a platform for showcasing creative portfolios. Inspired by Adobe Portfolio examples,
+            we provide a minimalist space for artists, developers, and creators to display their work. Our goal is to connect talent with opportunities in a clean,
+            gray and black themed environment. Browse the gallery or add your own portfolio to get started!
+            </p>
+        </section>
+        <section id="gallery">
+            <h2>Portfolio Gallery</h2>
+            <div class="gallery">
+                <!-- Raj's Portfolio Card -->
+                <div class="portfolio-card" onclick="window.open('http://127.0.0.1:5500/Nicole%20Edades%20(Raj)/public_html/Index.html/indexx.html', '_blank')">
+                    <img src="client raj.jpg" alt="Raj's Portfolio Thumbnail">
+                    <div class="content">
+                        <h3>Raj's Portfolio</h3>
+                        <p>Freelance Web Developer specializing in clean, responsive designs. Explore Raj's projects in HTML, CSS, JavaScript, and more.</p>
+                        <a href="http://127.0.0.1:5500/Nicole%20Edades%20(Raj)/public_html/Index.html/indexx.html" target="_blank" class="view-link">View Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card" >
+                    <img src="client a.jpg" alt="Nicole's Portfolio Thumbnail">
+                    <div class="content"> 
+                        <h3>Nicole's Portfolio</h3>
+                        <p>Creative Designer with a passion for visual storytelling. Featuring graphic design, branding, and digital art projects.</p>
+                        <a href="http://127.0.0.1:5500/Nicole%20Edades%20(Raj)/public_html/Index.html/index.html#contacts" target="blank" class="view-link">View Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="client b.jpg" alt="Anton's Portfolio Thumbnail">
+                    <div class="content">
+                        <h3>Anton's Portfolio</h3>
+                        <p>Software Engineer focused on backend development and scalable solutions. Showcasing code samples and project architectures.</p>
+                        <a href="http://127.0.0.1:5500/Nicole%20Edades%20(Raj)/public_html/Index.html/index.html#contacts" target="blank" class="view-link">View Portfolio</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card add-portfolio">
+                    <div>
+                        <p>+ Add Your Portfolio</p>
+                        <small>Submit your work to be featured here.</small>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="add">
+            <h2>Add Your Portfolio</h2>
+            <p>To add your portfolio, please contact us via the contacts section below. We'll guide you through the process.</p>
+        </section>
+    
+        <section id="contacts">
+            <h2>Contact Us</h2>
+            <form class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        © 2025 PortfoliYous Gallery. All rights reserved to ICT-CCT 12-A Nicole Edades
+    </footer>
+</body>
+</html>
+    
